@@ -494,8 +494,7 @@ int main()
                             price=distance*0.35;
                         }
                         order.SetPrice(price);
-                        std::ofstream out_1("drivers_data",std::ios::binary|std::ios::app);
-                        order.WriteToFile(out_1);
+        
                         std::cout<<"\nPrice:"<<price;
                         float rate;
                         std::cout<<"\nRate him:";
@@ -568,8 +567,7 @@ int main()
                             price=distance*0.35;
                         }
                         order.SetPrice(price);
-                        std::ofstream out_1("drivers_data",std::ios::binary|std::ios::app);
-                        order.WriteToFile(out_1);
+                        
                         std::cout<<"\nPrice:"<<price;
                         float rate;
                         std::cout<<"\nRate him:";
